@@ -69,3 +69,13 @@ python main.py
 - Max 3 stories per source (12 total)
 - Output language: Hebrew
 - Telegram message max 4096 chars — truncate if needed
+
+## Cloud Schedule
+Runs daily at **7am Israel time** (04:00 UTC) via Claude Code cloud routine.
+
+- Routine ID: `trig_01X9g4vcmL4AGdM5QSD2GkCh`
+- Cron: `0 4 * * *` (UTC)
+- Model: `claude-sonnet-4-6`
+- Manage at: https://claude.ai/code/routines/trig_01X9g4vcmL4AGdM5QSD2GkCh
+
+> Note: GitHub repo must be connected and env vars (ANTHROPIC_API_KEY, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID) must be available in the cloud environment.
