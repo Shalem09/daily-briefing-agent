@@ -1,9 +1,9 @@
 from skills.rss_fetcher import fetch_feed
 
 SOURCES = {
-    "N12": "https://www.mako.co.il/rss/news.xml",
-    "כלכליסט": "https://www.calcalist.co.il/rss/AAABVpbHMkE.xml",
-    "ערוץ 13": "https://13news.co.il/feed/",
+    "ynet": "https://www.ynet.co.il/Integration/StoryRss2.xml",
+    "וואלה חדשות": "https://rss.walla.co.il/feed/22",
+    "וואלה כלכלה": "https://rss.walla.co.il/feed/2",
     "ערוץ 14": "https://www.now14.co.il/feed/",
 }
 
